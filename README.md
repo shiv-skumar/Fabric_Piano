@@ -2,7 +2,9 @@
 The idea is to use the same method as in Fabric piano to build a small prototype of another keyboard musical instrument. This would be the minimal form of the fabric piano with 3-6 keys.  Originally, I planned to build a demonstration of a string instrument like Ukulele but the chords and the keys are again a lot of complexity. It will require more keys for creating a simple music. So, I go with the keyboard musical instruments. The conductive property of the conductive threads are used to read a signal using the micro-controller(sewn). The speaker(sewn) is used to produce the sound. The idea is to let the user touch one of the keys on the instrument and a sound is produced. I plan on trying to recreate the piano notes(a sequence of 3-6, which can be reproduced using the speaker) keys like in a regular piano. Inside the buzzer is a coil of wire and a small magnet, through which when current flows produces a tiny "click". When done thousands of times per second, the clicks create tones. In other words, the frequency of the clicks is used to produce different sounds.The users would technically be touching a conducive thread patch. This produces the sound.
 
 ## Directories explained:
--  tests/code : Capacitance_read.ino
+-  tests/code : 
+    - Capacitance_read.ino
+    - Read_Keys.ino
 -  Images : Contains the upgrades/progress
 
 ## Progress update:
