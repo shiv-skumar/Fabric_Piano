@@ -13,6 +13,16 @@ The idea is to use the same method as in Fabric piano to build a small prototype
 - Analyzed the behaviour of Aluminium foil and copper conductive thread in capacitance sensing
 - Tried different methods of capacitance sensing(hardware + code changes)
 
+## Prototype building phase II :
+-  The placement of all the components on the frame was designed
+-  The conductive patches were tested
+
+## Prototype building phase III :
+-  The Piano keys were stitched
+-  The speaker was interfaced and the Piano key notes were mapped to the frequency of the speaker
+-  The final sewing of all components has to be done
+
+
 ## Directories explained:
 -  tests/code : 
     - Capacitance_read.ino
