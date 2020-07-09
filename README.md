@@ -27,7 +27,10 @@ The idea is to use the same method as in Fabric piano to build a small prototype
 -  tests/code : 
     - Capacitance_read.ino
     - Read_Keys.ino
+    - Speaker_test1.ino
+    - Fabric_piano_v3.ino
 -  Images : Contains the upgrades/progress
+-  audio_files : Contains the audio data tested
 
 ## Progress update:
 The week 3 update:
@@ -35,6 +38,7 @@ The week 3 update:
 - The speaker placement done
 - The speaker sound check done
 - The piano key notes, frequency encoding done
+- The final code written(to be tested)
 
 The week 2 update:
 - The Piano key was stitched with the conductive patch.
