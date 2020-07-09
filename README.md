@@ -20,6 +20,12 @@ The idea is to use the same method as in Fabric piano to build a small prototype
 -  Images : Contains the upgrades/progress
 
 ## Progress update:
+The week 3 update:
+- 5 Piano keys stitched
+- The speaker placement done
+- The speaker sound check done
+- The piano key notes, frequency encoding done
+
 The week 2 update:
 - The Piano key was stitched with the conductive patch.
 - The crosses indicate the placement of the conductive patch. The wooden pieces were set in order to provide a stiff support underneath the keys for better capacitance sensing. 
@@ -28,3 +34,4 @@ The week 2 update:
 
 ## Acknowledgement:
 - sewelectric.org/diy-projects/5-fabric-piano/
+- https://www.arduino.cc/en/Tutorial/toneMelody
