@@ -1,9 +1,9 @@
 #include "pins_arduino.h" // Arduino pre-1.0 needs this
-int key1=A0;
-int key2=A1;
-int key3=A2;
-int key4=A3;
-int key5=A4;
+int key1=A5;
+int key2=A4;
+int key3=A3;
+int key4=A2;
+int key5=A1;
 
 int speaker = 3; // name of the speaker key
 
@@ -20,8 +20,8 @@ void setup() {
 pinMode(key1,INPUT);
 pinMode(key2,INPUT);
 pinMode(key3,INPUT); 
-pinMode(key2,INPUT);
-pinMode(key3,INPUT);  
+pinMode(key4,INPUT);
+pinMode(key5,INPUT);  
 pinMode(speaker,OUTPUT);
 Serial.begin(9600);
 }
@@ -30,17 +30,19 @@ void loop() {
    touchValue1 = readCapacitivePin(key1); // read the capacitance in key1
    touchValue2 = readCapacitivePin(key2); // read the capacitance in key2
    touchValue3 = readCapacitivePin(key3); // read the capacitance in key3
-//    Serial.println(touchValue);           // send touchValue to the computer
+   touchValue4 = readCapacitivePin(key4); // read the capacitance in key4
+   touchValue5 = readCapacitivePin(key5); // read the capacitance in key5
+//    Serial.println(touchValue5);           // send touchValue to the computer
 //      delay(100);                           // delay for 1/10 of a second
-    if(touchValue1!=2 && touchValue1>=3)
+    if(touchValue1!=1 && touchValue1>=2)
     {tone(speaker, C6);}
-    if(touchValue2!=2 && touchValue2>=3)
+    else if(touchValue2!=1 && touchValue2>=2)
     {tone(speaker, CS6);}
-    if(touchValue3!=2 && touchValue3>=3)
+    else if(touchValue3!=1 && touchValue3>=2)
     {tone(speaker, D6);}
-    if(touchValue4!=2 && touchValue4>=3)
+    else if(touchValue4!=1 && touchValue4>=2)
     {tone(speaker, DS6);}
-    if(touchValue5!=2 && touchValue5>=3)
+    else if(touchValue5!=1 && touchValue5>=2)
     {tone(speaker, E6);}
     else
     {noTone(speaker);}
