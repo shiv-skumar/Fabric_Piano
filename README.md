@@ -33,6 +33,10 @@ The idea is to use the same method as in Fabric piano to build a small prototype
 -  audio_files : Contains the audio data tested
 
 ## Progress update:
+
+The week 4 update:
+- The final code was written and tested
+
 The week 3 update:
 - 5 Piano keys stitched
 - The speaker placement done
