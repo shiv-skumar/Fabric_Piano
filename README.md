@@ -24,6 +24,9 @@ The idea is to use the same method as in Fabric piano to build a small prototype
 -  The speaker was interfaced and the Piano key notes were mapped to the frequency of the speaker
 -  The final sewing of all components has to be done
 
+## Prototype building phase IV :
+-  The sewing was done
+-  Final code uploaded
 
 ## Directories explained:
 -  tests/code : 
