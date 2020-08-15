@@ -55,6 +55,9 @@ The week 2 update:
 - The code was further altered to read the conductive patch and recognize different keys. The sensing was calibrated to read the keys. The output was displayed in the serial monitor as the following video.
 - The placement of the controller was planned.
 
+## Fabric Piano explained
+-  https://drive.google.com/file/d/13t_XeVNtMl5TdA2EuHlnGKRsvfMPMWyE/view?usp=sharing
+
 ## Acknowledgement:
 - sewelectric.org/diy-projects/5-fabric-piano/
 - https://www.arduino.cc/en/Tutorial/toneMelody
